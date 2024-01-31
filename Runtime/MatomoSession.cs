@@ -24,6 +24,8 @@ namespace Lumpn.Matomo
 
             sb.Append("&_id=");
             HexUtils.AppendHex(sb, userId);
+            sb.Append("&uid=");
+            HexUtils.AppendHex(sb, userId);
 
             sb.Append("&url=");
             sb.Append(EscapeDataString(websiteUrl));

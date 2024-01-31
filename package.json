@@ -19,11 +19,11 @@
   "samples": [
     {
       "displayName": "Tracker Samples",
-      "path": "Samples~/TrackerSamples"
+      "path": "Samples/TrackerSamples"
     },
     {
       "displayName": "Matomo API Debugging Samples",
-      "path": "Samples~/TestingSamples"
+      "path": "Samples/TestingSamples"
     }
   ]
 }
